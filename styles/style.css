@@ -29,11 +29,10 @@ button, summary {
 /****************/
 /* JOUW STYLING */
 /****************/
-
+ a {
+	text-decoration: none; 
+ }
 /* jouw code */
+/* locations pagina code*/
 
-body {
-  color:var(--color-text);
-  background-color:var(--color-background);
-}
 
