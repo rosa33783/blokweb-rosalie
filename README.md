@@ -59,7 +59,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
   Als je de screenreader op alleen links zette, werd het menu niet voorgelezen omdat het menu met javascript was gemaakt en niet met links.
   Zo kan je als blind persoon niet door het menu.
 
@@ -79,7 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Er waren eigenlijk geen problemen maar wel(met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -182,7 +181,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader las de
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 

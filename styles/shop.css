@@ -1,0 +1,54 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+p {
+	margin-left:auto;
+	margin-right:auto;
+	color: #717171;
+	text-align: center;
+	width:28.75em ;	
+	font-weight: bold;
+	width: 19em;
+	line-height:2em;
+}
+
+main section img{
+	margin-top: 5em;
+	margin-right: auto;
+	margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* code voor BAG 0
+{
+	display:flex;
+	justify-content: end;
+	align-content: flex-end;
+}
+*/
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
