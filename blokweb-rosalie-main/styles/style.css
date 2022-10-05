@@ -15,6 +15,7 @@
   /* CUSTOM PROPERTIES */
   /*********************/
 
+  /*background wilt het niet doen??*/
   :root {
 	--text-color-footer: #717171;
 	--menu-background: #fff;
@@ -37,12 +38,7 @@
   
   
   
-  
-  
-  /******************************************************/
-  /* styling voor de small-screen versie van de website */
-  /******************************************************/
-  
+  /*bron voor het menu is de opdracht van het fixed menu op DLO. Het is aangepast naar mijn site.*/
   /*************/
   /* DE HEADER */
   /*************/
@@ -50,13 +46,9 @@
 	min-height:4em;
 	padding:0 1em;
 	line-height:1;
-	
-	/* JOUW CODE HIER - stap 3 */  
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-	
-	/* JOUW CODE HIER - stap 3 */
 	top:0;
   }
   
@@ -67,8 +59,6 @@
 	text-decoration:none;
 	font-weight: bold;
   }
-  
-  
   
   
   
@@ -92,7 +82,6 @@
   /* HET MENU */
   /************/
   header nav {
-	/* JOUW CODE HIER - stap 3 */
 	order:-1;  
   }
   
@@ -121,30 +110,21 @@
 	padding:4em 1em 0;
 	list-style:none;
 	font-size: 1.3em;
-	
 	display:flex;
 	flex-direction: column;
 	align-content:start;
-	
 	background:var(--menu-background);
-	
-	/* JOUW CODE HIER - stap 1 */
 	position:fixed;
 	left:0;
 	right:0;
 	top:0;
 	bottom:0;
-	
-	/* JOUW CODE HIER - stap 2 */
 	transform:translatey(-100%);
-	
-	/* JOUW CODE HIER - stap 4 */
 	transition:transform .3s;
   }
   
   /* als menu open is */
    header nav.toonMenu ul {
-	/* JOUW CODE HIER - stap 4 */
 	transform:translatey(0);
   }
   
@@ -156,7 +136,6 @@
   /* EEN LINK IN DE LIJST */
   /************************/
   header nav a {
-	/* icon en tekst met gap-je naast elkaar */
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -173,17 +152,14 @@
   /****************************************************************/
   @media (min-width:38em) {
 	 header nav {
-	  /* JOUW CODE HIER - stap 8 */
 	  order:0;  
 	}
 	
 	header nav button {
-	  /* JOUW CODE HIER - stap 6 */
 	  display:none;
 	}
 	
 	header nav ul {
-	  /* JOUW CODE HIER - stap 7 */
 	  position:static;
 	  transform:none;
 	  
@@ -192,23 +168,19 @@
 	}
 	
 	header nav li {
-	  /* JOUW CODE HIER - stap 9 */
 	  flex-basis:unset;
 	  flex-grow:unset;
 	}
 	
 	header nav a {
-	  /* JOUW CODE HIER - stap 10 */
 	  flex-direction:column;
-	  
 	  border:none;
 	}
 	
 	header > a:last-of-type {
-	  /* JOUW CODE HIER - stap 10 */
 	  flex-direction:column;
 	}
-  }
+  
   
   
   
@@ -218,7 +190,6 @@
   @media (min-width:54em) {
 	header > a:last-of-type,
 	nav a {
-	  /* JOUW CODE HIER - stap 11 */
 	  flex-direction:row;
 	}
   }
@@ -246,4 +217,4 @@
   footer p {
 	font-size: 0.5em;
   }
-  
+
