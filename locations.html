@@ -1,89 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>store locations</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link href="styles/locations.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/locations.css">
 </head>
-
 <body>
-	<header>
-		<img src="images/logo.svg" width="280" height="62">
-    	<section>
-			<nav>
-				<button>
-					<img src="images/menulogo.chrome.png" alt="menu toggle" width="30" height="30">
-				</button>
-				<ul>
-					<li><a href="">MAGAZINE</a></li>
-					<li><a href="scents.html">SCENTS</a></li>
-					<li><a href="locations.html">LOCATIONS</a></li>
-				</ul>
-			</nav>
-					<a href="">BAG 0</a>
-		</section>
+    <header>
 
-		<section>
-	    	 <nav>
-		   		  <ul>
-		        	 <button><li>ASIA</li></button>
-		        	 <button><li>THE AMERICAS</li></button>
-		       		 <button><li>EUROPE</li></button>
-		    	 </ul>
-	     </nav>
-	 	</section>
-	</header>
+        <a href="#">
+          <!--image source is the chromehearts site-->
+          <img src="images/logo.svg" alt="go home"/>
+        </a>
+ 
+        <nav>
 
-	<main>
-     	<section>
-     		<h1>ASPEN</h1>
-            	<ul>
-	        		<li><p>CALL FOR APPOINTMENT</p></li>
-	         		<li><a href="">208 S Mill StreetAspen, CO 81611</a></li>
-		    		<li><a href="Tel: +1 970 369 9979">Tel: +1 970 369 9979</a></li> 
-	    			<li><p>FOR ALL INQUIRIES…</p></li>
-	        		<li><a href="mailto:aspen@chromehearts.com" alt="link to mailbox email aspen@chromehearts.com">aspen@chromehearts.com</a></li>
-				</ul>
-     	</section>
+          <button aria-hidden="true">
+            <!--image source is the chromehearts site-->
+            <img src="images/menulogo.chrome.png" alt="menu" />
+          </button>
+          
+          <ul>
+            <li>
+              <a href="scents.html">SHOP</a>
+            </li>
 
-		<section>
-	 		<h1>HONOLULU</h1>
-			  	<ul>
-	 				<li><p>CALL FOR APPOINTMENT</p></li>
-	    			<li><a href="">2184 Kalakaua Avenue Honolulu, HI 96815</a></li>
-					<li><a href="Tel: +1 808 926 4900">Tel: +1 808 926 4900</a></li>
-	          		<li><a href="">Fax: +1 808 926 4999</a></li>
-					<li><p>FOR ALL INQUIRIES…</p></li>
-					<li><a href="mailto:honolulu@chromehearts.com" alt="link to mailbox email honolulu@chromehearts.com">honolulu@chromehearts.com</a></li>
-	   			</ul>
-		</section>
-	</main>
+            <li>
+              <a href="locations.html">LOCATIONS</a>
+            </li>
 
-	<footer>
-    	<ul>
-    		<section>
-        		<li><a href="">GENERAL</a></li>
-       			<li><a href="">TERMS</a></li>
-    		</section>
+            <li>
+              <a href="#">MAGAZINE</a>
+            </li>
+          </ul>
 
-    		<section>
-       			<li><a href="">CONTACT</a></li>
-        		<li><a href="">CA SUPPLY CHAIN ACT</a></li>
-    		</section>
+        </nav>
+        
+        <!-- link to bag -->
+        <a href="#">BAG 0</a>
 
-    		<section>
-        		<li><a href="">NL</a></li>
-        		<li><a href="">PRIVACY</a></li>
-   			</section>
-		</ul>
-	</footer>
-	<script defer src="scripts/script.js"></script>
+    </header>
+
+    <main>
+       
+        <nav>
+          <ul>
+              <li>
+                <button>ASIA</button>
+              </li>
+
+              <li>
+                <button>THE AMERICAS</button>
+              </li>
+
+              <li>
+                <button>EUROPE</button>
+              </li> 
+          </ul>
+
+        </nav>
+
+            <section>
+                <h1>ASPEN</h1>
+                   <ul>
+                       <li>
+                         <p>CALL FOR APPOINTMENT</p>
+                       </li>
+                           
+                          <li>
+                            <a href="">208 S Mill Street Aspen, CO 81611</a>
+                          </li>
+
+                          <li>
+                            <a href="Tel:+19703699979">Tel: +1 970 369 9979</a>
+                          </li> 
+                           
+                       <li>
+                         <p>FOR ALL INQUIRIES…</p>
+                       </li>
+
+                       <li>
+                         <a href="mailto:aspen@chromehearts.com">aspen@chromehearts.com</a>
+                      </li>
+                   </ul>
+            </section>
+   
+           <section aria-label="Honolulu">
+                <h1>HONOLULU</h1>
+                    <ul>
+                        <li><p>CALL FOR APPOINTMENT</p></li>
+                            
+                              <li>
+                                <a href="">2184 Kalakaua Avenue Honolulu, HI 96815</a>
+                              </li>
+
+                              <li>
+                                <a href="Tel: +1 808 926 4900">Tel: +1 808 926 4900</a>
+                              </li>
+
+                              <li>
+                                <a href="">Fax: +1 808 926 4999</a>
+                              </li>
+                          
+                       <li><p>FOR ALL INQUIRIES…</p></li>
+                       <li><a href="mailto:honolulu@chromehearts.com">honolulu@chromehearts.com</a></li>
+                    </ul>
+           </section> 
+
+    </main>
+
+    <footer>
+            <a href="https://www.instagram.com/chromeheartsofficial/">
+              <!--image source is the chromehearts site-->
+              <img src="images/igicon.png" alt="link to instagram"/>
+            </a>
+            
+                 <ul>
+                    <li>
+                      <a href="">TERMS</a>
+                    </li>
+
+                    <li>
+                      <a href="">CA SUPPLY CHAIN ACT</a>
+                    </li>
+
+                    <li>
+                      <a href="">PRIVACY</a>
+                    </li>
+
+                    <li>
+                      <a href="">GENERAL</a>
+                    </li>
+                    
+                    <li>
+                      <a href="">CONTACT</a>
+                    </li>
+
+                    <li>
+                      <a href="">EN</a>
+                    </li>
+                 </ul>
+
+            <p>© 2022 CHROME HEARTS LLC. ALL RIGHTS RESERVED</p>
+    </footer>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>

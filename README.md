@@ -16,13 +16,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
- Rosalie Groen
+  Rosalie Groen
 
   #### Je startniveau:
   Blauw
 
   #### Je focus:
-  surfcae plane
+  surface plane
+
+(- Video/Geluid
+-  Dark/Light mode 
+- Toegankelijkheid++
+- Formulieren
+- Advanced positioning: sticky, fixed, z-index…)
  
 </details>
 
@@ -39,12 +45,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.chromehearts.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="" width="375px" alt="home page">
+  https://www.chromehearts.com/scents#
+  <img src="images/readmefotovid.png" width="375px" alt="home page">
+  <img src="images/readmefoto.png" width="375px" alt="home page">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  https://www.chromehearts.com/locations.html
+  <img src="images/readmefotoloc.png" width="375px" alt="locaties pagina">
  
 </details>
 
@@ -66,21 +73,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Hier was geen groot probleem. 
+  
+  Wat eventueel wel handig zou zijn zijn grotere knoppen voor de nagellak kleuren want die zijn nu vrij klein
+  en moeilijk te gebruiken voor mensen met een motorieke beperking.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit was niet een groot probleem omdat als je bijvoorbeeld op een item wou klikken je op de image kan klikken. Deze werkt als een link naar een detailpagina voor de parfum items.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Er waren eigenlijk geen problemen maar wel(met indien nodig afbeeldingen)
+  Er waren eigenlijk geen problemen op dit oppervlak. Bij de nagellak was alleen wel het probleem 
+  dat bij de verschillende knoppen van verschillende kleuren nagellak, er geen naam van de kleur bij stond. Zo kunnen blinde mensen en kleurenblinde mensen het niet zien.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit kan opgelost worden door een benaming bij de kleuren te zetten voor kleurenblinde mensen en 
+  een "alt" text voor screenreaders als een blind persoon gebruik maakt van de site.
 
 </details>
 
@@ -92,13 +99,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  van de scents pagina
+  <img src="images/breakdown2.jpg" width="375px" alt="breakdown van de hele pagina">
+
+  van de locations pagina
+  <img src="images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/brditem.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/brditem2.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -112,26 +123,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  <img src="images/readmevoortgang.png" width="375px">
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
+  Hoe maak ik het toegangelijker
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  -aria labels gebruiken
+  -h1 gebruiken asl kopjes voor verschillende sections voor de screenreaders.
+  -alle waardes die nog nog em zijn omzetten in pixels.
 
 </details>
 
@@ -145,26 +147,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb de achtergrond gekregen en toe kunnen voegen. Ook heb ik met behulp van Sanne
+  het menu op de locations pagina sticky gemaakt zodat de content er onder door kan scrollen.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  achtergrond, uitklapmenu
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - iedereen is verder gekomen
+  - de achtergrond krijg ik nog van Sanne zodat ik die kan gebruiken
+  - Het uitklapmenu kan ik maken met behulp van de opdracht op github
+  - sections aangeven met onzichtbare kopjes voor screenreaders(h1)
 
 </details>
 
@@ -181,27 +176,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  De screenreader las de
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  De screenreader las het menu en de h1's dus dit is verbeterd. Ik ben erg blij met het resultaat.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Je kon goed door alles heen tabben.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  de knoppen van de nagellak moeten nog groter dat had ik nog niet gedaan. Hierdoor kan je
+  er moeilijk(er) op klikken.
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier zijn geen problemen alleen moet ik nog tekst toevoegen aan de buttons voor de kleuren.
 
 </details>
 
@@ -215,26 +200,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het uitklapmenu is gelukt dus daar ben ik heel blij mee. Ook is de sticky gelukt voor de locations pagina.
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
+  erg veel gedoe met positionering dus dat zeker fixen.
+  
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - extra content toevoegen. namelijk een log in formulier en een kledingstuk
+  - locations pagina moet verder worden vormgegeven
+  - werken aan darkmode
+  - dat de positionering niet werkte lag aan een niet afgesloten link dus nu is alles goed.
 
 </details>
 
@@ -248,19 +223,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="images/uitkomst.png" width="375px" alt="uitomst opdracht 1">
+  <img src="images/uitkomst1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="images/uitkomst2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="images/uitkomst4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="images/uitkomst6.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+ Ik heb zeker meer geleerd over javascript. Ik vond dit eerst echt heel lastig maar nu ik het snap is 
+ het eigenlijk helemaal niet moeilijk. Ik heb de knoppen van de verschillende kleuren nagellak met javascript laten werken
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ <img src="images/uitkomst5.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  wat ik nog wel lastig vond was het positioneren van de video als een achtergrond met het menu er over heen.
+  Ik heb hem position:absolute; gegegeven maar nu kan je niet echt de controls van de video bedienen.
+  Je kan dit wel met tab.
+ 
+ <img src="images/uitkomst7.png" width="375px" alt="uitomst opdracht 1">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -272,10 +254,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-  1. bron 1
-  2. bron 2
-  3. ...
+bronnen van foto's, de video en code heb ik in mijn html als comments er in gezet. Zo weet je heel makkelijk
+welke bronnen in welke stukjes terug komen.
 
 </details>

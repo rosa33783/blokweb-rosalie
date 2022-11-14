@@ -1,0 +1,125 @@
+
+/*darkmode*/
+:root {
+	--general-background: url("../images/background.png");
+	--border-color: solid 1px black;
+	--link-color-main: #717171;
+	--continents-menu-color:black;
+	--call-for-appointment:black;
+
+  }
+  
+  @media (prefers-color-scheme: dark){
+	 :root {
+		--general-background: url("../images/backgrounddark.png");
+		--border-color: solid 1px white;
+		--link-color-main: black;
+		--continents-menu-color:white;
+		--call-for-appointment:white;
+	 }
+  }
+
+
+
+li {list-style: none;}
+
+
+header {
+	background-color:#0004;
+	position:sticky;
+	top:0;
+	z-index: 10;
+	background-image: var(--general-background);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center top;
+	background-size:100% auto;
+}
+
+
+main nav {
+	width: 480px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position: fixed;
+	margin-top:4em;
+	
+	border-bottom: var(--border-color);
+	top:0;
+	background-image: var(--general-background);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center top;
+	background-size:100% auto;
+	background-color:#0004;
+	
+}
+
+main nav ul {
+	display: flex;
+    flex-direction: row;
+}
+
+main nav ul li button{
+	font-weight:bold;
+}
+
+main {
+	padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;	
+}
+
+main h1{
+	font-size: 20px;
+}
+
+main a{	
+	color: var(--link-color-main);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	width: 170px;
+	line-height: 30px;
+}
+
+main a:hover{
+	text-decoration: underline;
+}
+
+main ul {
+	padding:0;
+	font-weight: bold;
+}
+
+main nav ul li{
+	font-weight: bold;
+	color: var(--continents-menu-color)
+	
+}
+
+main nav ul button{
+    background: none;
+    border:none
+}
+
+main section ul li:nth-of-type(1){
+	color: var(--call-for-appointment);
+	font-weight: bold;
+	font-size: 10px;
+}
+
+
+main section ul li:last-child{
+	color: var(--email-color)
+}
+
+main section:last-of-type{
+	padding-bottom:5em;
+}

@@ -4,75 +4,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>scents</title>
-    <link href="styles/style.css" rel="stylesheet">
-    <link href="styles/shop.css" rel="stylesheet">
+    <title>chromehearts</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/shop.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-<header>
-    <h1>Chrome Hearts shop page</h1>
-         <nav>
-            <a href="" alt="logo chrome hearts"><img src="images/logo.svg" width="280" height="62"></a>
-            <button>
-                <img src="images/menulogo.chrome.png" alt="menu toggle" width="30" height="30">
-            </button>
-            <ul>
-               <li><a href="" aria-label="magazine shopping">MAGAZINE</a></li>
-               <li><a href="scents.html" aria-label="scents shopping">SCENTS</a></li>
-               <li><a href="locations.html" aria-label="shop locations">LOCATIONS</a></li>
-            </ul>
-            <a href="" alt="shopping bag">BAG 0</a>
-         </nav>
-    <h1>Intro text scents</h1>
-     <p>
-        After years of development, Chrome
-        Hearts has introduced a unisex duet of
-        scents that evokes their essence - from
-        home to body. Designed to be worn or
-        burned alone or paired to create a
-        subtle mood unique to each individual, 
-        +22+ and +33+ hints to the spirit of 
-        Chrome Hearts and the world they have 
-        curated.
-    </p>
-</header>
+  
+    <header>
 
-<main> 
-    <section>
-        <h1>item 1 parfume</h1>
-         <img src="images/parfum+33+.png" alt="parfum number 33"width="200" height="500">
-         <a href="" aria-label="link to parfum" >EAU DE PARFUM</a>
-         <p>€555</p>
-    </section>
+        <!-- het logo -->
+        <a href="#" aria-label="link to home">
+          <!--image source is the chromehearts site-->
+          <img src="images/logo.svg" alt="go home"/>
+        </a>
+        
+        <!-- het menu -->
+        <nav>
+          <!-- de button is niet relevant voor screenreaders -->
+          <button aria-hidden="true">
+            <img src="images/menulogo.chrome.png" alt="menu" />
+            <!--image sources are the chromehearts site-->
+          </button>
+          
+          <ul>
+            <li><a href="scents.html">SHOP</a></li>
+            <li><a href="locations.html">LOCATIONS</a></li>
+            <li><a href="#">MAGAZINE</a></li>
+          </ul>
+        </nav>
 
-    <section>
-        <h1>item 2 scented nail polish</h1>
-         <img src="images/nailpolish.png" alt="scented nail polish pink" width="300" height="400">
-         <!--code buttons different colors of nail polish-->
-         <a href="" aria-label="link to nail polish">SCENTED NAIL POLISH PINK</a>
-         <p>€180</p>
-    </section>
-</main>
+        <a href="#" aria-label="link to bag">BAG </a>
+        <!--video source is the chromehearts site-->
+        <video src="video.mp4" controls autoplay loop muted width="100"></video>
+        
+    </header>
 
-<footer>
-    <ul>
-    <section>
-        <li><a href="">GENERAL</a></li>
-        <li><a href="">TERMS</a></li>
-    </section>
+    <main>
 
-    <section>
-        <li><a href="">CONTACT</a></li>
-        <li><a href="">CA SUPPLY CHAIN ACT</a></li>
-    </section>
+      <section>
+        <h1>Intro text scents</h1>
+          <p>
+           After years of development, Chrome
+           Hearts has introduced a unisex duet of
+           scents that evokes their essence - from
+           home to body. Designed to be worn or
+           burned alone or paired to create a
+           subtle mood unique to each individual, 
+           +22+ and +33+ hints to the spirit of 
+           Chrome Hearts and the world they have 
+           curated.
+          </p>
+      </section>
+       
+      <section>
+        <ul>
 
-    <section>
-        <li><a href="">NL</a></li>
-        <li><a href="">PRIVACY</a></li>
-    </section>
-</ul>
-</footer>
+          <li>
+            <h1>item 1 parfume</h1>
+                <a href="#" aria-label="link to parfum">
+                   <img src="images/parfum+33+.png" alt="parfum number 33" width="200" height="500" class=".photo2">
+                   <!--image sources are the chromehearts site-->
+                </a> 
+
+                 <a href="" aria-label="link to parfum" >EAU DE PARFUM</a>
+                 <h2>€555</h2>
+          </li>
+      
+          <li>
+            <h1>item 2 scented nail polish</h1>
+                <a href="#" aria-label="link to nailpolish">
+                  <img src="images/nailpolish.png" alt="scented nail polish" width="300" height="400" class="nail">
+                  <!--image sources are the chromehearts site-->
+                </a>
+                    <menu>
+                      <li><button class="btn1" aria-label="pink nail polish">pink</button></li>
+                      <li><button class="btn2" aria-label="yellow nail polish">yellow</button></li>
+                      <li><button class="btn3" aria-label="black nail polish">black</button></li>
+                    </menu>
+
+                    <a href="" aria-label="nail polish">SCENTED NAIL POLISH</a>
+                    <h2>€180</h2>
+          </li>
+
+        </ul>
+      </section>
+
+      <section>
+            <h1>clothing</h1>
+              <!-- source image: https://chromeheartofficial.com/chrome-hearts-malibu-exclusive-horse-shoe-zip-up-hoodie-black/-->
+              <a href="#">
+                <img src="images/hoodie.png" alt="black chrome hearts hoodie">
+              </a>
+              <a href="" aria-label="chrome hearts hoodie">CHROME HEARTS HOODIE</a>
+              <h2>€450</h2>
+
+        <section>
+          <h1>hoodie sizes</h1>
+            <label>SIZE</label>
+             <select>
+              <ul>
+                <li>
+                  <option>XS</option>
+                </li>
+
+                <li>
+                  <option>S</option>
+                </li>
+                  
+                <li>
+                  <option>M</option>
+                </li>
+
+                <li>
+                  <option>L</option>
+                </li>
+
+                <li>
+                  <option>XL</option>
+                </li>
+              </ul>
+            </select>
+        </section>
+
+      </section>
+      
+        <section>
+          <h1>log in</h1>
+          <!--input attributes source is: https://www.w3schools.com/html/html_form_attributes.asp-->
+          <form>
+            <h1>login form chrome hearts account</h1>
+             <h2>LOGIN</h2>
+              <label>* Email</label>
+               <input type="email">
+               
+
+              <label>* Password</label>
+               <input type="password">
+          </form>
+            <button>GO</button>
+        </section>
+
+    </main>
+
+    <footer>
+      <a href="https://www.instagram.com/chromeheartsofficial/">
+        <img src="images/igicon.png" alt="link to instagram"/>
+        <!--image source is the chromehearts-->
+      </a>
+ 
+      <ul>
+        <li>
+          <a href="">TERMS</a>
+        </li>
+
+        <li>
+          <a href="">CA SUPPLY CHAIN ACT</a>
+        </li>
+
+        <li>
+          <a href="">PRIVACY</a>
+        </li>
+
+        <li>
+          <a href="">GENERAL</a>
+        </li>
+
+        <li>
+          <a href="">CONTACT</a>
+        </li>
+
+        <li>
+          <a href="">EN</a>
+        </li>
+      </ul>
+      <p>© 2022 CHROME HEARTS LLC. ALL RIGHTS RESERVED</p>
+    </footer>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>

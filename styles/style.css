@@ -1,104 +1,208 @@
-* {
-	margin: 0;
-}
-:root {
-    --nav-text-color:black;
-}
 
-@media (prefers-color-scheme:dark) {
-   :root {
-    --nav-text-color:white;
-    }
-}
-
-button, summary, a {
-	cursor: pointer;
-}
-
-header img:nth-of-type(1){
-    display: flex;
-    justify-content: center;
-}
-body {
-	background-image: url(../images/background.png);
-	background-position: fixed;
-	background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+*, *::after, *::before {
+	box-sizing:border-box;  
+  }
+  
+  button:not(disabled) {
+	cursor:pointer;
+  }
+  
+  *  {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+  }
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
 
-li {
-    list-style: none;
-}
 
-nav {
-    
-    display:flex;
-	flex-direction: column;
-}
-
-nav button {
-	border:none;
-	background: none;
-	display: flex;
-	align-content: flex-start;
-	position: fixed;
-}
-
-nav ul {
-	list-style: none;
-}
-
-section a {
-	text-decoration: none;
-	color: black;
-	font-weight: medium;
-	font-size: 14px;
-}
-
-header a {
-	display: flex;
-	align-content: flex-end;
-	justify-content: flex-end;
-	vertical-align: top;
-}
-
-ul a {
-	text-decoration: none;
-	color: var(--nav-text-color);
-	font-size: 19px;
+  :root {
+	--text-color-footer: #717171;
+	--menu-background: #fff;
+	--general-background: url("../images/background.png");
+	--menu-text:black;
+	--copyright-color:#717171;
+	
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	 :root {
+		--text-color-footer: white;
+		--menu-background:#5B5C5D;
+		--general-background: url("../images/backgrounddark.png");
+		--copyright-color:white;
+	
+	 }
+  }
+ 
+  
+  
+  
+  /********************/
+  /* ALGEMENE STIJLEN */
+  /********************/
+  body {
+	margin:0;
+	background:var(--general-background);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position:center top;
+  }
+  
+  
+  /*bron voor het menu is de opdracht van het fixed menu op DLO. Ik heb het aangepast naar mijn site.*/
+  /*************/
+  /* DE HEADER */
+  /*************/
+  header {
+	min-height: 62px;
+	padding-right: 10px;
+	line-height:1;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	top:0;
+  }
+  
+  /* alle links in de header */
+  header a {
+	padding: 8px 0px;
+	color:var(--general-color);
+	text-decoration:none;
 	font-weight: bold;
+	
+  }
+
+  header a:hover {
+	transition: 2s;
+	color:var(--text-color-footer);
+  }
+  
+  /********/
+  /* LOGO */
+  /********/
+  header > a:first-of-type {
+	display:grid;
+	grid-template-columns:min-content min-content;
+	grid-gap:4px;
+	align-items:center;
+  }
+  
+  header > a:first-of-type img {
+	height:48px;
+  }
+  
+  
+  /************/
+  /* HET MENU */
+  /************/
+  header nav {
+	order:-1;  
+  }
+  
+  
+  /***************/
+  /* MENU BUTTON */
+  /***************/
+  header nav button {
+	border: none;
+	background:none;
+	z-index:100;
+	position: sticky;
+  }
+  
+  header nav button img {
+	height:48px;
+	
+	background:var(--menu-button)
+  }
+  
+  
+  /*******************/
+  /* LIJST MET LINKS */
+  /*******************/
+  header nav ul { 
+	margin:0; 
+	padding:64px 16px 0px;
+	list-style:none;
+	font-size: 20.8px;
+	color: var(--menu-text);
+	display:flex;
+	flex-direction: column;
+	align-content:start;
+	background:var(--menu-background);
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	transform:translatey(-100%);
+	transition:transform .3s;
+  }
+  
+  /* als menu open is */
+   header nav.toonMenu ul {
+	transform:translatey(0);
+  }
+  
+  header video {
+    margin:0;
+    z-index: -3;
+	position: absolute;
+	width:100%;
+	top:0;
+  }
+  
+  
+  /************************/
+  /* EEN LINK IN DE LIJST */
+  /************************/
+  header nav a {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-bottom: 30px ;
+  }
+  
+  
+  /*footer styling*/
+  
+footer li{
+	list-style: none;
+  }
+
+footer ul li a:hover {
+	color: black;
+  }
+  
+footer a {
+	font-size: 11.2px;
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--text-color-footer);
+  }
+  
+footer ul {
+	padding-left: 32px;
+	padding-right: 32px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+footer p {
+	margin: 0;
+	font-size: 8px;
 	display: flex;
 	justify-content: center;
-}
+	align-items: center;
+	color:var(--copyright-color);
+	padding-bottom: 20px;
+  }
 
-footer ul section li a{
-	font-size: 10px;
-	display:grid;
-}
-
-
-footer ul section:nth-of-type(1) {
- display: flex;
- flex-direction: column;
- align-items: flex-start;
-}
-
-footer ul section:nth-of-type(2) {
- display: flex;
- flex-direction: column;
- align-items: center;
-}
-
-footer ul section:nth-of-type(3) {
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-justify-content: flex-end;
-}
-
-h1{
-position: absolute; 
-left: -999em;
-}
+footer a img {
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	width: 50px;
+  }
