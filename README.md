@@ -123,6 +123,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
+  de image moet ik nog gaan weergeven als een button
   <img src="images/readmevoortgang.png" width="375px">
 
   ### Agenda voor meeting
